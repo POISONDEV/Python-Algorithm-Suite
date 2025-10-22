@@ -1,79 +1,121 @@
 ﻿# Python-Algorithm-Suite
 
- 
-# 📊 Numerical Integration Calculator
+# 🚀 Sorting & Searching Algorithms Visualizer 🚀
 
-This project is a Graphical User Interface (GUI) application built with Python and Tkinter. It serves as an educational tool for calculating the definite integral of a user-defined function using numerical methods.
-
-This program demonstrates two common numerical integration techniques:
-1.  **Trapezoidal Rule**
-2.  **Simpson's Rule**
-
-## ✨ Features
-
-* Calculate integrals using the Trapezoidal Rule.
-* Calculate integrals using Simpson's Rule.
-* Compare the results from both methods side-by-side.
-* User-friendly GUI interface.
-* Input a custom function `f(x)` (using `numpy` syntax, e.g., `np.sin(x)`, `x**2`).
-* Define integration bounds (`a` and `b`).
-* Specify either the **number of intervals (n)** or the **step size (h)**.
-* (Optional) Display detailed, step-by-step calculation tables for educational purposes.
-
-## ⚙️ Requirements
-
-* Python 3.x
-* Tkinter (usually included with Python)
-* NumPy
-
-## 🚀 Running the Application
-
-1.  Ensure all requirements are installed:
-    ```bash
-    pip install numpy
-    ```
-
-2.  Run the script from your terminal:
-    ```bash
-    python NumericalIntegration.py
-    ```
-
-# 📊 โปรแกรมคำนวณปริพันธ์เชิงตัวเลข
-
-โปรเจกต์นี้เป็นโปรแกรม (GUI) ที่สร้างด้วย Python และ Tkinter เพื่อใช้เป็นเครื่องมือทางการศึกษาสำหรับการคำนวณปริพันธ์จำกัดเขต (Definite Integral) ของฟังก์ชันที่ผู้ใช้กำหนด โดยใช้วิธีการเชิงตัวเลข (Numerical Methods)
-
-โปรแกรมนี้สาธิตการทำงานของเทคนิคการคำนวณปริพันธ์พื้นฐาน 2 วิธี คือ:
-1.  **กฎสี่เหลี่ยมคางหมู (Trapezoidal Rule)**
-2.  **กฎของซิมป์สัน (Simpson's Rule)**
-
-## ✨ คุณสมบัติ
-
-* คำนวณปริพันธ์ด้วยกฎสี่เหลี่ยมคางหมู
-* คำนวณปริพันธ์ด้วยกฎของซิมป์สัน
-* เปรียบเทียบผลลัพธ์ของทั้งสองวิธี
-* หน้าจอผู้ใช้งาน (GUI) ที่ออกแบบมาให้เข้าใจง่าย
-* ป้อนฟังก์ชัน `f(x)` ที่กำหนดเอง (ในรูปแบบของ `numpy` เช่น `np.sin(x)`, `x**2`)
-* กำหนดขอบเขตการอินทิเกรต (`a` และ `b`)
-* สามารถเลือกกำหนด **จำนวนช่วง (n)** หรือ **ความกว้างของช่วง (h)** ได้
-* (ตัวเลือก) สามารถแสดงตารางขั้นตอนการคำนวณอย่างละเอียด เพื่อจุดประสงค์ทางการศึกษา
-
-## ⚙️ สิ่งที่ต้องมี (Requirements)
-
-* Python 3.x
-* Tkinter (โดยทั่วไปจะติดตั้งมาพร้อมกับ Python)
-* NumPy
-
-## 🚀 การรันโปรแกรม
-
-1.  ตรวจสอบว่าติดตั้งไลบรารีที่จำเป็นครบแล้ว:
-    ```bash
-    pip install numpy
-    ```
-
-2.  รันสคริปต์ผ่าน Terminal:
-    ```bash
-    python NumericalIntegration.py
-    ```
+> [ A Cybernetic Dive into Core Computer Science Concepts ]
+> 
+> (Scroll down for Thai version | เลื่อนลงสำหรับเวอร์ชันภาษาไทย)
 
 ---
---
+
+## [ ENGLISH ]
+
+### 🌐 >> About This Project
+
+Welcome to the visual matrix. This project is an educational tool designed to **demystify** the core algorithms that power our digital world. It's built for students, by a student (KornDEV), to make abstract concepts tangible and interactive.
+
+Instead of reading pseudo-code in a textbook, this tool allows you to *see* exactly how data is sorted, swapped, and found, step-by-step.
+
+### 💡 >> Features
+
+* **Dynamic Visualization:** Watch algorithms work in real-time on a set of 50 data bars.
+* **Interactive Controls:** Generate new random data, control the animation speed, and input search targets.
+* **Audio-Visual Feedback:** Includes sound effects and background music (powered by Pygame) for a more engaging experience.
+* **Slick UI:** Built with Tkinter, featuring animated GIF backgrounds, custom fonts, and smooth fade transitions.
+
+#### >> Algorithms On-Deck:
+
+* **Sorting Algorithms:**
+    * Bubble Sort
+    * Insertion Sort
+    * Selection Sort
+    * Merge Sort
+* **Searching Algorithms:**
+    * Sequential Search
+    * Binary Search
+
+### 💻 >> Tech Stack
+
+* **Python 3**
+* **Tkinter** (for the core GUI)
+* **Pygame** (for audio playback)
+* **Pillow (PIL)** (for image & GIF processing)
+
+### 🚀 >> How To Run (Installation)
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/POISONDEV/Python-Algorithm-Suite.git](https://github.com/POISONDEV/Python-Algorithm-Suite.git)
+    cd Python-Algorithm-Suite
+    ```
+2.  **Install dependencies:** (Tkinter is usually built-in with Python)
+    ```bash
+    pip install pygame pillow
+    ```
+3.  **Execute the program:**
+    ```bash
+    python3 AlgorithmSuite.py
+    ```
+
+### 👤 >> Developer
+
+* Developed & Visualized by **KornDEV**.
+
+---
+---
+---
+
+## [ ภาษาไทย ]
+
+### 🌐 >> เกี่ยวกับโปรเจกต์นี้
+
+ยินดีต้อนรับสู่เมทริกซ์แห่งการเรียนรู้! 🤖
+
+โปรเจกต์นี้เป็นเครื่องมือเพื่อการศึกษาที่ออกแบบมาเพื่อ **"ถอดรหัส"** อัลกอริทึมหลักที่เป็นหัวใจของโลกดิจิทัล สร้างโดยนักศึกษา (KornDEV) เพื่อให้นักศึกษาคนอื่นๆ ได้เห็นภาพและเข้าใจแนวคิด (Concept) ที่เป็นนามธรรม ให้กลายเป็นสิ่งที่จับต้องได้และโต้ตอบได้
+
+แทนที่จะอ่าน pseudo-code ในตำรา, เครื่องมือนี้จะช่วยให้คุณ *เห็น* กับตาว่าข้อมูลถูกจัดเรียง, สลับที่, และค้นหาอย่างไร แบบทีละขั้นตอน
+
+### 💡 >> ฟีเจอร์เด่น
+
+* **การแสดงผลแบบไดนามิก:** ดูการทำงานของอัลกอริทึมแบบเรียลไทม์บนชุดข้อมูล 50 แท่ง
+* **การควบคุมแบบโต้ตอบ:** สุ่มข้อมูลใหม่, ปรับความเร็ว, และป้อนค่าเป้าหมายเพื่อค้นหา
+* **เสียงประกอบ:** มาพร้อมเอฟเฟกต์เสียงและเพลงพื้นหลัง (ด้วย Pygame) เพื่อประสบการณ์ที่สมจริงยิ่งขึ้น
+* **หน้าตาโปรแกรมสุดคูล:** สร้างด้วย Tkinter พร้อมพื้นหลัง GIF เคลื่อนไหว, ฟอนต์แบบกำหนดเอง, และ transition ที่ลื่นไหล
+
+#### >> อัลกอริทึมที่มีให้เล่น:
+
+* **อัลกอริทึมการเรียงลำดับ:**
+    * Bubble Sort
+    * Insertion Sort
+    * Selection Sort
+    * Merge Sort
+* **อัลกอริทึมการค้นหา:**
+    * Sequential Search
+    * Binary Search
+
+### 💻 >> เทคโนโลยีที่ใช้
+
+* **Python 3**
+* **Tkinter** (สำหรับหน้า GUI หลัก)
+* **Pygame** (สำหรับเล่นเสียง)
+* **Pillow (PIL)** (สำหรับจัดการภาพและ GIF)
+
+### 🚀 >> วิธีการรันโปรแกรม
+
+1.  **Clone ตัวโปรเจกต์:**
+    ```bash
+    git clone [https://github.com/POISONDEV/Python-Algorithm-Suite.git](https://github.com/POISONDEV/Python-Algorithm-Suite.git)
+    cd Python-Algorithm-Suite
+    ```
+2.  **ติดตั้งไลบรารีที่จำเป็น:** (ปกติ Tkinter จะมาพร้อมกับ Python อยู่แล้ว)
+    ```bash
+    pip install pygame pillow
+    ```
+3.  **รันโปรแกรม:**
+    ```bash
+    python3 AlgorithmSuite.py
+    ```
+
+### 👤 >> ผู้พัฒนา
+
+* พัฒนาและออกแบบโดย **KornDEV**
