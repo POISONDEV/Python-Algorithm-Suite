@@ -4,8 +4,6 @@
 
 > [ A Cybernetic Dive into Core Computer Science Concepts ]
 > 
-> (Scroll down for Thai version | เลื่อนลงสำหรับเวอร์ชันภาษาไทย)
-
 ---
 
 ## [ ENGLISH ]
@@ -119,3 +117,4 @@ Instead of reading pseudo-code in a textbook, this tool allows you to *see* exac
 ### 👤 >> ผู้พัฒนา
 
 * พัฒนาและออกแบบโดย **KornDEV**
+
