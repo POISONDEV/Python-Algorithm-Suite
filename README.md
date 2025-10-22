@@ -57,7 +57,7 @@ Instead of reading pseudo-code in a textbook, this tool allows you to *see* exac
 
 ### 👤 >> Developer
 
-* Developed & Visualized by **KornDEV**.
+* Developed & Visualized by **KornDEV & Friends in CS**.
 
 ---
 ---
@@ -116,5 +116,6 @@ Instead of reading pseudo-code in a textbook, this tool allows you to *see* exac
 
 ### 👤 >> ผู้พัฒนา
 
-* พัฒนาและออกแบบโดย **KornDEV**
+* พัฒนาและออกแบบโดย **KornDEV และเพื่อนๆ CS**
+
 
